@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{57B845FF-F74C-4600-BA93-33503ABD0DA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reactivities.Test", "Reactivities.Test\Reactivities.Test.csproj", "{4E760169-CC31-44B5-A8CB-8F7FA2D1A1E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{57B845FF-F74C-4600-BA93-33503ABD0DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57B845FF-F74C-4600-BA93-33503ABD0DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57B845FF-F74C-4600-BA93-33503ABD0DA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E760169-CC31-44B5-A8CB-8F7FA2D1A1E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E760169-CC31-44B5-A8CB-8F7FA2D1A1E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E760169-CC31-44B5-A8CB-8F7FA2D1A1E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E760169-CC31-44B5-A8CB-8F7FA2D1A1E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

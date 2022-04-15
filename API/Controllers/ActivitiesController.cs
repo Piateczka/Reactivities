@@ -14,13 +14,17 @@ namespace API.Controllers
 		[HttpGet]
 		public async Task<ActionResult<List<Activity>>> GetActivities()
 		{
-			return await Mediator.Send(new List.Query());
+
+			return await Mediator.Send(new List());
+
+			
+
 		}
 
 		[HttpGet("{id}")] //activities/id
 		public async Task<ActionResult<Activity>> GetActivity(Guid Id)
 		{
-			return await Mediator.Send(new Details.Query { Id = Id });
+			return await Mediator.Send(new Details { Id = Id });
 		}
 
 		[HttpPost]

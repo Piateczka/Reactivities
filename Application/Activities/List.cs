@@ -6,15 +6,12 @@ using Persistence;
 
 namespace Application.Activities
 {
-	public class List
+	public class List : IRequest<List<Activity>>
 	{
-		public class Query : IRequest<List<Activity>>
-		{
-
-		}
 
 
-		public class Handler : IRequestHandler<Query, List<Activity>>
+
+		public class Handler : IRequestHandler<List, List<Activity>>
 		{
 			private readonly DataContext _context;
 
@@ -24,7 +21,7 @@ namespace Application.Activities
 				_context = context;
 
 			}
-			public async Task<List<Activity>> Handle(Query request, CancellationToken cancellationToken)
+			public async Task<List<Activity>> Handle(List request, CancellationToken cancellationToken)
 			{
 
 
